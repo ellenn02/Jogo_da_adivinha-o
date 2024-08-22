@@ -1,0 +1,43 @@
+# Arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ambientes virtuais
+venv/
+env/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+Jogo de Adivinhação de Números
+
+Descrição: Este é um jogo de adivinhação simples desenvolvido em Python. O jogo solicita ao usuário que adivinhe um número aleatório gerado pelo computador, que está no intervalo de 1 a 100. O usuário recebe feedback se o chute é muito baixo ou muito alto, e o jogo continua até que o número correto seja adivinhado. O programa também conta o número de tentativas feitas pelo usuário.
+
+Funcionalidades:
+
+Geração de um número aleatório entre 1 e 100.
+Entrada do usuário para adivinhar o número.
+Feedback sobre se o palpite foi muito baixo, muito alto ou correto.
+Contagem e exibição do número de tentativas realizadas até a adivinhação correta.
+Tecnologias Utilizadas:
+
+Python 3.x
+Como Executar o Projeto:
+
+Clone o repositório para o seu computador.
+Navegue até o diretório do projeto.
+Execute o script Python adivinha_numero.py para iniciar o jogo.
+Licença:
+
+Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+
+Contribuição:
+
+Contribuições são bem-vindas! Para contribuir, faça um fork do repositório, faça suas alterações em uma nova branch e envie um pull request.
+
